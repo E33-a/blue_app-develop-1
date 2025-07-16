@@ -6195,6 +6195,7 @@
         },
         {
             "name": "doctrine/dbal",
+<<<<<<< HEAD
             "version": "4.2.4",
             "source": {
                 "type": "git",
@@ -6205,11 +6206,23 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/dbal/zipball/b37d160498ea91a2382a2ebe825c4ea6254fc0ec",
                 "reference": "b37d160498ea91a2382a2ebe825c4ea6254fc0ec",
+=======
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "5fe09532be619202d59c70956c6fb20e97933ee3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/5fe09532be619202d59c70956c6fb20e97933ee3",
+                "reference": "5fe09532be619202d59c70956c6fb20e97933ee3",
+>>>>>>> main
                 "shasum": ""
             },
             "require": {
-                "doctrine/deprecations": "^0.5.3|^1",
-                "php": "^8.1",
+                "doctrine/deprecations": "^1.1.5",
+                "php": "^8.2",
                 "psr/cache": "^1|^2|^3",
                 "psr/log": "^1|^2|^3"
             },
@@ -6220,7 +6233,11 @@
                 "phpstan/phpstan": "2.1.17",
                 "phpstan/phpstan-phpunit": "2.0.6",
                 "phpstan/phpstan-strict-rules": "^2",
+<<<<<<< HEAD
                 "phpunit/phpunit": "10.5.46",
+=======
+                "phpunit/phpunit": "11.5.23",
+>>>>>>> main
                 "slevomat/coding-standard": "8.16.2",
                 "squizlabs/php_codesniffer": "3.13.1",
                 "symfony/cache": "^6.3.8|^7.0",
@@ -6281,7 +6298,11 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/doctrine/dbal/tree/4.2.4"
+=======
+                "source": "https://github.com/doctrine/dbal/tree/4.3.0"
+>>>>>>> main
             },
             "funding": [
                 {
@@ -6297,7 +6318,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-06-15T23:15:01+00:00"
+=======
+            "time": "2025-06-16T19:31:04+00:00"
+>>>>>>> main
         },
         {
             "name": "doctrine/deprecations",
@@ -6674,6 +6699,7 @@
         },
         {
             "name": "laravel/pint",
+<<<<<<< HEAD
             "version": "v1.23.0",
             "source": {
                 "type": "git",
@@ -6684,6 +6710,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/9ab851dba4faa51a3c3223dd3d07044129021024",
                 "reference": "9ab851dba4faa51a3c3223dd3d07044129021024",
+=======
+            "version": "v1.24.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "0345f3b05f136801af8c339f9d16ef29e6b4df8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/0345f3b05f136801af8c339f9d16ef29e6b4df8a",
+                "reference": "0345f3b05f136801af8c339f9d16ef29e6b4df8a",
+>>>>>>> main
                 "shasum": ""
             },
             "require": {
@@ -6694,7 +6732,11 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.76.0",
+=======
+                "friendsofphp/php-cs-fixer": "^3.82.2",
+>>>>>>> main
                 "illuminate/view": "^11.45.1",
                 "larastan/larastan": "^3.5.0",
                 "laravel-zero/framework": "^11.45.0",
@@ -6739,7 +6781,11 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+<<<<<<< HEAD
             "time": "2025-07-03T10:37:47+00:00"
+=======
+            "time": "2025-07-10T18:09:32+00:00"
+>>>>>>> main
         },
         {
             "name": "laravel/sail",
