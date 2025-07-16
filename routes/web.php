@@ -141,3 +141,7 @@ Route::middleware('auth:sanctum')->group(function () {
 Route::get('/', [HomeController::class, 'welcome'])->name('welcome');
 
 require __DIR__.'/auth.php';
+
+Route::get('/devoluciones', function () {
+    return Inertia::render('ReturnForm');
+})->name('returns.form');
